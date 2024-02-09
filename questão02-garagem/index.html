@@ -3,10 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Prova </title>
+
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+<center>
+    <h1>Carros Velozes</h1>
+
+      <form>
+         
+        <label for="valorInicial">Valor do carro: </label>
+        <input type="number" id="valorInicial" name="valorInicial">
+
+        <br>
+        <br>
+        <br>
+
+        <label for="imposto">Tipo de Pagamento: </label>
+        <select id="imposto">
+            <option value="finan">1- Financiamento</option>
+            <option value="consó">2- Consórcio</option>
+            <option value="vista">3- Á Vista</option>
+        </select>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <button type="button" onclick="calcularImp()">Valor Final</button>
+
+        <h2>Valor Calculado</h2>
+        <p id="final"></p>
+      </form>
+</center>
+    
     <script src="../questão02-garagem/script.js"></script>
 </body>
 </html>
