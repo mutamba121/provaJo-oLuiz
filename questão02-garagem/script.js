@@ -40,7 +40,7 @@ function calcularImp(){
     const consor = parseFloat(document.getElementById("consó"));
     const vist = parseFloat(document.getElementById("vista"));
 
-    return document.getElementById("final").innerHTML = "O valor final é: " + impostos(valor, financ, consor, vist);
+    return document.getElementById("final").innerHTML = "O valor final é: " + calcularFinan(valor, financ, consor, vist);
 }
 
 
